@@ -1,0 +1,148 @@
+*{
+	margin: 0; padding: 0;
+}
+body{
+	background: url(../images/bg.png); background-position: center top; background-repeat: repeat-x;
+}
+a{
+	color: #fff; text-decoration: none;
+}
+
+#main{
+	width: 1024px; margin: 0 auto; padding-top: 1px;
+}
+.navbar{
+	width: 100%; height: 80px; margin: 0 auto; background: rgba(86,147,198,0.7); position: fixed; z-index: 1000;
+}
+.limit{
+	width: 1024px; height: 80px; margin: 0 auto;
+}
+.limit img{
+	float: left; margin-left: 40px;
+}
+.limit ul{
+	margin-left: 470px;
+}
+.limit ul li{
+	list-style:none; width:90px; height:35px; float: left; color: #fff; text-align: center; font-family:"Microsoft YaHei";
+	margin-top: 30px;
+}
+.limit ul li:nth-child(1){
+	cursor: pointer;
+}
+.limit ul li:nth-child(3){
+	cursor: pointer;
+}
+.gfwrap{
+	width: 1024px; height: 520px; margin-top: 110px; position: relative;
+}
+.gfwrap #phone img{
+	position: absolute;
+}
+.gfwrap #down img{
+	cursor: pointer;
+}
+#phone img:nth-child(1){
+	left: -300px; opacity: 0;
+}
+#phone img:nth-child(2){
+	left: 100px; opacity: 0;
+}
+#line img:nth-child(1){
+	left: 100px; opacity: 0;
+}
+#line img:nth-child(2){
+	left: 100px; opacity: 0;
+}
+#line img:nth-child(3){
+	left: 100px; opacity: 0;
+}
+#down img{
+	opacity: 0;
+}
+.gfwrap #down img{
+	position: absolute; left: 570px; top: 289px;
+}
+.wrap{
+	width:812px; height:230px; margin:-50px auto; overflow: hidden; margin-left: 150px;
+}
+.wrap ul li{
+	list-style:none; width:100px; height:208px; float:left;
+}
+#sec{
+	width: 1024px; height: 520px; margin-top: 70px; display: none;
+}
+.tablet{
+	width: 1024px; height: 290px; color: #fff; font-family: "Microsoft YaHei"; margin-top: 150px; position: absolute;
+}
+.pc{
+	width: 700px; height: 400px;
+}
+.pc .logoi2{
+	width:400px; height: 200px; position: relative; left: 110px; top: -718px; opacity: 1;
+}
+.pc .helperContent{
+	width:400px; height: 200px; position: relative; left: 38px; top: -953px; opacity: 1;
+}
+.pc .pcHeadFrame{
+	width: 190px; height: 190px; position: relative; left: 15px; top: -543px; opacity: 1; z-index: 10;
+}
+/*.pc .headFrame_black {
+	width: 190px; height: 190px; position: relative; left: 255px; top: -1130px;
+}*/
+.pc .headFrame_black {
+	width: 190px; height: 190px; position: relative; left: 255px; top: -1005px; z-index: 8;
+}
+.pc .headFrame_black label {
+	width: 190px; height: 190px; position: relative; left: 255px; top: -1005px;
+}
+.pc .headFrame_blue {
+	width: 190px; height: 190px; position: relative; left: 251px; top: -1514px; opacity: 0; z-index: 50;
+}
+.pc .headFrame_head {
+	width: 190px; height: 190px; position: relative; left: 253px; top: -1704px; z-index: 2; opacity: 1;
+}
+.pc .headFrame_head img {
+	width: 190px; height: 190px; position: relative; left: 251px; top: -1700px; z-index: 2; opacity: 1;
+}
+.pc .resetBg {
+	width: 83px; height: 92px; position: relative; left: 596px; top: -1710px; z-index: 15; opacity: 0;
+}
+.pc .resetSinger {
+	width: 83px; height: 92px; position: relative; left: 604px; top: -1788px; z-index: 17; opacity: 0; cursor: pointer;
+}
+.pc .resetGroup {
+	width: 83px; height: 92px; position: relative; left: 604px; top: -1841px; z-index: 17; opacity: 0; cursor: pointer;
+}
+.pc .info {
+	width: 190px; height: 190px; position: relative; left: 349px; top: -1170px;
+}
+.pc .pcContent{
+	position: relative; left: 120px; top: -420px;
+}
+.pc .drawBtn{
+	position: relative; left: 218px; top: -810px;z-index: 50;
+}
+.pc .drawBtn img{
+	position: relative; left: 218px; top: -810px; cursor: pointer; z-index: 50; cursor: pointer;
+}
+.tablet .pc img{
+	position: relative; left: 170px; top: -120px; opacity: 0;
+}
+.pc .pcContent label{
+	position: relative; left: 65px; top: -120px; opacity: 0; color: #237bc5; font-family: "Microsoft YaHei"; z-index: 100;
+}
+.pc .info label{
+	width: 200px; height: 32px; text-align: center; position: relative; left: 65px; top: -124px; opacity: 0; color: #fff; 
+	font-family: "Microsoft YaHei"; z-index: 70; display: block;
+	/*border: solid red 1px; */
+}
+.talken{
+	width:812px; height:230px; margin:0px auto; overflow: hidden; margin-left: 150px;
+}
+.talken ul li{
+	list-style:none; width:100px; height:208px; float:left;
+}
+.title {
+	margin-left: 384px;
+}

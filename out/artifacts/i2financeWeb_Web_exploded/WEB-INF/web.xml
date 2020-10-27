@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>drawWayServlet</servlet-name>
+        <servlet-class>drawway.DrawWayServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>drawWayServlet</servlet-name>
+        <url-pattern>/drawway</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>resetServlet</servlet-name>
+        <servlet-class>drawway.ResetInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>resetServlet</servlet-name>
+        <url-pattern>/reset</url-pattern>
+    </servlet-mapping>
+</web-app>
